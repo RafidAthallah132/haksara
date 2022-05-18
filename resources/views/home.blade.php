@@ -28,6 +28,14 @@
                 </div>
             </div>
             <a href="{{ route('tests.index') }}" class="btn btn-success">Take a new quiz!</a>
+
+            <a href="carakan">Carakan</a>
+            <a href="aksaraangka">Aksara Angka</a>
+            <a href="aksaramurda">Aksara Murda</a>
+            <a href="sandhangan">Sandhangan</a>
+            <a href="aksararekan">Aksara Rekan</a>
+            <a href="Pasangan">Pasangan</a>
+            
         </div>
     </div>
 @endsection

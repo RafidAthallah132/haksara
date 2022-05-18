@@ -2,7 +2,12 @@
 Route::get('/', function () {
     return redirect('/home');
 });
-
+Route::get('carakan',"Modul@Carakan") ;
+Route::get('aksaraangka',"Modul@aksaraangka") ;
+Route::get('aksaramurda',"Modul@aksaramurda") ;
+Route::get('sandhangan',"Modul@sandhangan") ;
+Route::get('aksararekan',"Modul@aksararekan") ;
+Route::get('pasangan',"Modul@pasangan") ;
 // Auth::routes();
 
 // Authentication Routes...
