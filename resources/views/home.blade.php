@@ -34,8 +34,8 @@
             <a href="aksaramurda">Aksara Murda</a>
             <a href="sandhangan">Sandhangan</a>
             <a href="aksararekan">Aksara Rekan</a>
-            <a href="Pasangan">Pasangan</a>
-            
+            <a href="pasangan">Pasangan</a>
+
         </div>
     </div>
 @endsection

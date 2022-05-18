@@ -8,6 +8,14 @@ Route::get('aksaramurda',"Modul@aksaramurda") ;
 Route::get('sandhangan',"Modul@sandhangan") ;
 Route::get('aksararekan',"Modul@aksararekan") ;
 Route::get('pasangan',"Modul@pasangan") ;
+
+Route::get('carakanlevel1',"Level@carakan1") ;
+Route::get('carakanlevel2',"Level@carakan2") ;
+Route::get('sandhanganlevel1',"Level@sandhangan1") ;
+Route::get('sandhanganlevel2',"Level@sandhangan2") ;
+Route::get('pasanganlevel1',"Level@pasangan1") ;
+Route::get('pasanganlevel2',"Level@pasangan2") ;
+
 // Auth::routes();
 
 // Authentication Routes...
