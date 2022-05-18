@@ -25,20 +25,7 @@
 
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('question_type', 'Question Type*', ['class' => 'control-label']) !!}
-                    {!! Form::select('question_type', $topics, old('question_type'), ['class' => 'form-control']) !!}
-                    <p class="help-block"></p>
-                    @if($errors->has('question_type'))
-                        <p class="help-block">
-                            {{ $errors->first('question_type') }}
-                        </p>
-                    @endif
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-xs-12 form-group">
-                    {!! Form::label('question_text', 'Question text*', ['class' => 'control-label']) !!}
+                    {!! Form::label('question_text', 'Detail Pertanyaan*', ['class' => 'control-label']) !!}
                     {!! Form::textarea('question_text', old('question_text'), ['class' => 'form-control ', 'placeholder' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('question_text'))
@@ -50,7 +37,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('option1', 'Option #1', ['class' => 'control-label']) !!}
+                    {!! Form::label('option1', 'Pilihan #1', ['class' => 'control-label']) !!}
                     {!! Form::text('option1', old('option1'), ['class' => 'form-control ', 'placeholder' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('option1'))
@@ -62,7 +49,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('option2', 'Option #2', ['class' => 'control-label']) !!}
+                    {!! Form::label('option2', 'Pilihan #2', ['class' => 'control-label']) !!}
                     {!! Form::text('option2', old('option2'), ['class' => 'form-control ', 'placeholder' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('option2'))
@@ -74,7 +61,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('option3', 'Option #3', ['class' => 'control-label']) !!}
+                    {!! Form::label('option3', 'Pilihan #3', ['class' => 'control-label']) !!}
                     {!! Form::text('option3', old('option3'), ['class' => 'form-control ', 'placeholder' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('option3'))
@@ -86,7 +73,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('option4', 'Option #4', ['class' => 'control-label']) !!}
+                    {!! Form::label('option4', 'Pilihan #4', ['class' => 'control-label']) !!}
                     {!! Form::text('option4', old('option4'), ['class' => 'form-control ', 'placeholder' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('option4'))
@@ -98,7 +85,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('option5', 'Option #5', ['class' => 'control-label']) !!}
+                    {!! Form::label('option5', 'Pilihan #5', ['class' => 'control-label']) !!}
                     {!! Form::text('option5', old('option5'), ['class' => 'form-control ', 'placeholder' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('option5'))
@@ -110,7 +97,7 @@
             </div>
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('correct', 'Correct', ['class' => 'control-label']) !!}
+                    {!! Form::label('correct', 'Jawaban Benar', ['class' => 'control-label']) !!}
                     {!! Form::select('correct', $correct_options, old('correct'), ['class' => 'form-control']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('correct'))
@@ -123,7 +110,7 @@
             
             <div class="row">
                 <div class="col-xs-12 form-group">
-                    {!! Form::label('answer_explanation', 'Answer explanation*', ['class' => 'control-label']) !!}
+                    {!! Form::label('answer_explanation', 'Penjelasan Jawaban*', ['class' => 'control-label']) !!}
                     {!! Form::textarea('answer_explanation', old('answer_explanation'), ['class' => 'form-control ', 'placeholder' => '']) !!}
                     <p class="help-block"></p>
                     @if($errors->has('answer_explanation'))
