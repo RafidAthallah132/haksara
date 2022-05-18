@@ -16,6 +16,16 @@ Route::get('sandhanganlevel2',"Level@sandhangan2") ;
 Route::get('pasanganlevel1',"Level@pasangan1") ;
 Route::get('pasanganlevel2',"Level@pasangan2") ;
 
+Route::get('matericarakan1',"Materi@carakan1") ;
+Route::get('matericarakan2',"Materi@carakan2") ;
+Route::get('materisandhangan1',"Materi@sandhangan1") ;
+Route::get('materisandhangan2',"Materi@sandhangan2") ;
+Route::get('materipasangan1',"Materi@pasangan1") ;
+Route::get('materipasangan2',"Materi@pasangan2") ;
+Route::get('materiaksaraangka',"Materi@aksaraangka") ;
+Route::get('materiaksaramurda',"Materi@aksaramurda") ;
+Route::get('materiaksararekan',"Materi@aksararekan") ;
+
 // Auth::routes();
 
 // Authentication Routes...
