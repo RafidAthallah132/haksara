@@ -2,6 +2,8 @@
 Route::get('/', function () {
     return redirect('/home');
 });
+
+//Route Modul
 Route::get('carakan',"Modul@Carakan") ;
 Route::get('aksaraangka',"Modul@aksaraangka") ;
 Route::get('aksaramurda',"Modul@aksaramurda") ;
@@ -9,6 +11,7 @@ Route::get('sandhangan',"Modul@sandhangan") ;
 Route::get('aksararekan',"Modul@aksararekan") ;
 Route::get('pasangan',"Modul@pasangan") ;
 
+//Route Level (jika ada lebih dari 1 level)
 Route::get('carakanlevel1',"Level@carakan1") ;
 Route::get('carakanlevel2',"Level@carakan2") ;
 Route::get('sandhanganlevel1',"Level@sandhangan1") ;
@@ -16,6 +19,7 @@ Route::get('sandhanganlevel2',"Level@sandhangan2") ;
 Route::get('pasanganlevel1',"Level@pasangan1") ;
 Route::get('pasanganlevel2',"Level@pasangan2") ;
 
+//Route Materi
 Route::get('matericarakan1',"Materi@carakan1") ;
 Route::get('matericarakan2',"Materi@carakan2") ;
 Route::get('materisandhangan1',"Materi@sandhangan1") ;
@@ -25,6 +29,17 @@ Route::get('materipasangan2',"Materi@pasangan2") ;
 Route::get('materiaksaraangka',"Materi@aksaraangka") ;
 Route::get('materiaksaramurda',"Materi@aksaramurda") ;
 Route::get('materiaksararekan',"Materi@aksararekan") ;
+
+//Route Latihan Soal
+Route::get('latihansoalcarakan1',"LatihanSoal@carakan1") ;
+Route::get('latihansoalcarakan2',"LatihanSoal@carakan2") ;
+Route::get('latihansoalsandhangan1',"LatihanSoal@sandhangan1") ;
+Route::get('latihansoalsandhangan2',"LatihanSoal@sandhangan2") ;
+Route::get('latihansoalpasangan1',"LatihanSoal@pasangan1") ;
+Route::get('latihansoalpasangan2',"LatihanSoal@pasangan2") ;
+Route::get('latihansoalaksaraangka',"LatihanSoal@aksaraangka") ;
+Route::get('latihansoalaksaramurda',"LatihanSoal@aksaramurda") ;
+Route::get('latihansoalaksararekan',"LatihanSoal@aksararekan") ;
 
 // Auth::routes();
 
