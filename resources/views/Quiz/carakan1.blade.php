@@ -5,9 +5,7 @@
         <div class="col-md-10">
             <div class="panel panel-default">
                 <div class="panel-heading">Welcome! Here are some numbers about LaraQuiz.</div>
-                <a href="materisandhangan2">Materi</a>
-                <a href="latihansoalsandhangan2">Latihan Soal</a>
-                <a href="quizsandhangan2">Kuis</a>
+            ini quiz carakan level 1
         </div>
     </div>
 @endsection

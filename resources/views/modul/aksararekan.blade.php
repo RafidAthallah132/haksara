@@ -7,7 +7,7 @@
                 <div class="panel-heading">Welcome! Here are some numbers about LaraQuiz.</div>
                 <a href="materiaksararekan">Materi</a>
                 <a href="latihansoalaksararekan">Latihan Soal</a>
-                <a href="kuisaksararekan">Kuis</a>
+                <a href="quizaksararekan">Kuis</a>
         </div>
     </div>
 @endsection
