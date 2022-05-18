@@ -1,9 +1,10 @@
 <?php
 
+use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateQuestionsTable extends Migration
+class CreateQuestionTypeTables extends Migration
 {
     /**
      * Run the migrations.
@@ -12,13 +13,9 @@ class CreateQuestionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('questions', function (Blueprint $table) {
+        Schema::create('question_type', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('topic_id')->unsigned()->nullable();
-            $table->foreign('topic_id', 'fk_256_topic_topic_id_question')->references('id')->on('topics');
-            $table->text('question_text')->nullable();
-            $table->text('question_type')->nullable();
-            $table->text('answer_explanation')->nullable();
+            $table->string('title')->nullable();
             
             $table->timestamps();
             $table->softDeletes();
@@ -34,6 +31,6 @@ class CreateQuestionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('questions');
+        Schema::dropIfExists('question_type');
     }
 }
