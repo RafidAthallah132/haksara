@@ -9,13 +9,12 @@
 
     @include('partials.analytics')
 
-    <div class="page-header navbar navbar-fixed-top">
-        @include('partials.header')
-    </div>
-
+    @include('partials.header')
+    
     <div class="clearfix"></div>
 
     <div class="page-container">
+
         <div class="page-sidebar-wrapper">
             @include('partials.sidebar')
         </div>
