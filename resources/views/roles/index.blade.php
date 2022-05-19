@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 
 @section('content')
     <h3 class="page-title">@lang('quickadmin.roles.title')</h3>
@@ -56,4 +56,4 @@
     <script>
         window.route_mass_crud_entries_destroy = '{{ route('roles.mass_destroy') }}';
     </script>
-@endsection
+@endsection --}}

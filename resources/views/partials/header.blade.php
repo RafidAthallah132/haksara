@@ -1,4 +1,4 @@
-<div class="page-header-inner">
+{{-- <div class="page-header-inner">
     <div class="page-header-inner">
         <div class="navbar-header">
             <a href="{{ url('/') }}"
@@ -18,4 +18,22 @@
             </ul>
         </div>
     </div>
+</div> --}}
+
+<div 
+style='position: absolute;
+width: 1440px;
+height: 50px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px 10px 20px 20px; ' 
+
+class="header">
+    
+<p>Haksara</p>
+
 </div>
+
