@@ -3,8 +3,8 @@
 @section('content')
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <h1 class="text-center" style="color: white">LaraQuiz</h1>
-            <h3 class="text-center" style="color: white">How well do you know Laravel?</h3>
+            <h1 class="text-center" style="color: white">Haksara</h1>
+            <h3 class="text-center" style="color: white">Yuk Belajar Aksara Jawa</h3>
             <br />
             <div class="panel panel-default">
                 <div class="panel-heading">Login</div>
@@ -69,31 +69,12 @@
                                         class="btn btn-default">
                                     Register
                                 </a>
-                                <br>
-                                <a href="{{ route('auth.password.reset') }}">Forgot password</a>
-                                <br>
-                                <br>
-                                Or login with:
-                                <br>
-                                <a href="{{ route('oauth2google') }}"
-                                        class="btn btn-info">
-                                    Google
-                                </a>
-                                <a href="{{ route('oauth2facebook') }}"
-                                        class="btn btn-info">
-                                    Facebook
-                                </a>
-                                <a href="{{ route('oauth2github') }}"
-                                        class="btn btn-info">
-                                    GitHub
-                                </a>
+                    
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
-            <div class="text-center" style="color: white">Created by <a href="http://laraveldaily.com">Laravel Daily Team</a></div>
-            <div class="text-center" style="color: white">Powered by <a href="https://quickadminpanel.com">QuickAdminPanel.com</a></div>
         </div>
     </div>
 @endsection
