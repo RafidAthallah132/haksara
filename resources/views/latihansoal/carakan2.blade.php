@@ -4,7 +4,7 @@
 
 @section('content')
 <div id="container">
-    <div id="start">Kuis dimulai!</div>
+    <div id="start">Mulai Kuis!</div>
     <div id="quiz" style="display: none">
         <div id="question"></div>
         <div id="qImg"></div>
@@ -39,7 +39,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {
-        question : "Apakah ini simbol dari zedemy",
+        question : "Apakah ini simbol dari HTML5?",
         imgSrc : "img/html.png",
         choiceA : "Benar",
         choiceB : "Salah",
