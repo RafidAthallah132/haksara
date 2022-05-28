@@ -27,13 +27,15 @@ height: 50px;
 left: 0px;
 top: 0px;
 
-background: #FFFFFF;
+
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 10px 10px 20px 20px; ' 
 
 class="header">
     
-<p>Haksara</p>
+<p id="haksara-title" style="font-size: 2em; margin-left:1em; color:white">Haksara</p>
 
 </div>
+
+
 

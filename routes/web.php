@@ -54,6 +54,8 @@ Route::get('quizaksaraswara',"Quiz@aksaraswara") ;
 
 // Auth::routes();
 
+
+
 // Authentication Routes...
 $this->get('login', 'Auth\LoginController@showLoginForm')->name('auth.login');
 $this->post('login', 'Auth\LoginController@login')->name('auth.login');
@@ -93,3 +95,4 @@ Route::group(['middleware' => 'auth'], function () {
     Route::resource('results', 'ResultsController');
     Route::post('results_mass_destroy', ['uses' => 'ResultsController@massDestroy', 'as' => 'results.mass_destroy']);
 });
+

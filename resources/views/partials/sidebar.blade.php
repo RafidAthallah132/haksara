@@ -5,6 +5,16 @@
             data-keep-expanded="false"
             data-auto-scroll="true"
             data-slide-speed="200">
+        <!-- User -->
+            <li>
+                <div class="row" style=" margin-left : 1em">
+                <img src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png" width="50%" alt="default"> <br>
+                <div class="col-md-4"><button type="button" class='btn btn-sm btn-primary'> Edit Profile</button></div> <br> <br>
+               <p class="col-sm-7" style="color:white;">Selamat Datang  {{ Auth::user()->name }} !</p>
+                </div>
+            </li>
+
+            <!-- end of user -->
 
             <li class="{{ $request->segment(1) == 'tests' ? 'active' : '' }}">
                 <a href="{{ route('tests.index') }}">
