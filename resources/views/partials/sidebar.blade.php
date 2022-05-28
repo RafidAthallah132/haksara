@@ -5,6 +5,16 @@
             data-keep-expanded="false"
             data-auto-scroll="true"
             data-slide-speed="200">
+        <!-- User -->
+            <li>
+               
+                <div class="row" style=" margin-left : 1em">
+                <i class="fa fa-user col-sm-5" aria-hidden="true" style="color:white;"></i>
+               <p class="col-sm-7" style="color:white;">{{ Auth::user()->name }}</p>
+                </div>
+            </li>
+
+            <!-- end of user -->
 
             <li class="{{ $request->segment(1) == 'tests' ? 'active' : '' }}">
                 <a href="{{ route('tests.index') }}">
