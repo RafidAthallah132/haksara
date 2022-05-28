@@ -74,8 +74,9 @@
 
             <p>&nbsp;</p>
 
-            <a href="{{ route('tests.index') }}" class="btn btn-default">Take another quiz</a>
-            <a href="{{ route('results.index') }}" class="btn btn-default">See all my results</a>
+            <a href="{{ route('tests.index') }}" class="btn btn-default">Ulangi quiz</a>
+            <a href="{{ route('results.index') }}" class="btn btn-default">Lihat seluruh hasil quiz</a>
+            
         </div>
     </div>
 @stop

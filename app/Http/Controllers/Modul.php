@@ -31,9 +31,9 @@ class Modul extends Controller
         //code untuk meload data
     }
 
-    function aksararekan()
+    function aksaraswara()
     {
-        return view('\modul\aksararekan');
+        return view('\modul\aksaraswara');
         //code untuk meload data
     }
 

@@ -43,9 +43,9 @@ class Quiz extends Controller
         //code untuk meload data
     }
 
-    function aksararekan()
+    function aksaraswara()
     {
-        return view('\Quiz\aksararekan');
+        return view('\Quiz\aksaraswara');
         //code untuk meload data
     }
 

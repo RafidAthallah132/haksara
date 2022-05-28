@@ -5,9 +5,9 @@
         <div class="col-md-10">
             <div class="panel panel-default">
                 <div class="panel-heading">Welcome! Here are some numbers about LaraQuiz.</div>
-                <a href="materiaksararekan">Materi</a>
-                <a href="latihansoalaksararekan">Latihan Soal</a>
-                <a href="quizaksararekan">Kuis</a>
+                <a href="aksaraswara">Kembali</a>
+                ini quiz aksara rekan
+            <a href="{{ route('tests.index') }}" class="btn btn-success">Take a new quiz!</a>
         </div>
     </div>
 @endsection

@@ -4,10 +4,10 @@
     <div class="row">
         <div class="col-md-10">
             <div class="panel panel-default">
-                <div class="panel-heading">Welcome! Here are some numbers about LaraQuiz.</div>
-            <a href="matericarakan1">Materi</a>
-            <a href="latihansoalcarakan1">Latihan Soal</a>
-            <a href="quizcarakan1">Kuis</a>
+                <a href="carakan">Kembali</p>
+                <a href="matericarakan1">Materi</a>
+                <a href="latihansoalcarakan1">Latihan Soal</a>
+                <a href="quizcarakan1">Kuis</a>
+            </div>
         </div>
-    </div>
-@endsection
+    @endsection

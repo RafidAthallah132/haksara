@@ -8,7 +8,7 @@ Route::get('carakan',"Modul@Carakan") ;
 Route::get('aksaraangka',"Modul@aksaraangka") ;
 Route::get('aksaramurda',"Modul@aksaramurda") ;
 Route::get('sandhangan',"Modul@sandhangan") ;
-Route::get('aksararekan',"Modul@aksararekan") ;
+Route::get('aksaraswara',"Modul@aksaraswara") ;
 Route::get('pasangan',"Modul@pasangan") ;
 
 //Route Level (jika ada lebih dari 1 level)
@@ -28,7 +28,7 @@ Route::get('materipasangan1',"Materi@pasangan1") ;
 Route::get('materipasangan2',"Materi@pasangan2") ;
 Route::get('materiaksaraangka',"Materi@aksaraangka") ;
 Route::get('materiaksaramurda',"Materi@aksaramurda") ;
-Route::get('materiaksararekan',"Materi@aksararekan") ;
+Route::get('materiaksaraswara',"Materi@aksaraswara") ;
 
 //Route Latihan Soal
 Route::get('latihansoalcarakan1',"LatihanSoal@carakan1") ;
@@ -39,7 +39,7 @@ Route::get('latihansoalpasangan1',"LatihanSoal@pasangan1") ;
 Route::get('latihansoalpasangan2',"LatihanSoal@pasangan2") ;
 Route::get('latihansoalaksaraangka',"LatihanSoal@aksaraangka") ;
 Route::get('latihansoalaksaramurda',"LatihanSoal@aksaramurda") ;
-Route::get('latihansoalaksararekan',"LatihanSoal@aksararekan") ;
+Route::get('latihansoalaksaraswara',"LatihanSoal@aksaraswara") ;
 
 //Route Quiz 
 Route::get('quizcarakan1',"Quiz@carakan1") ;
@@ -50,7 +50,7 @@ Route::get('quizpasangan1',"Quiz@pasangan1") ;
 Route::get('quizpasangan2',"Quiz@pasangan2") ;
 Route::get('quizaksaraangka',"Quiz@aksaraangka") ;
 Route::get('quizaksaramurda',"Quiz@aksaramurda") ;
-Route::get('quizaksararekan',"Quiz@aksararekan") ;
+Route::get('quizaksaraswara',"Quiz@aksaraswara") ;
 
 // Auth::routes();
 

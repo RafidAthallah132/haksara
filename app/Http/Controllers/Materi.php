@@ -43,9 +43,9 @@ class Materi extends Controller
         //code untuk meload data
     }
 
-    function aksararekan()
+    function aksaraswara()
     {
-        return view('\Materi\aksararekan');
+        return view('\Materi\aksaraswara');
         //code untuk meload data
     }
 

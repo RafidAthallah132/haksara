@@ -4,6 +4,8 @@
     <h3 class="page-title">@lang('quickadmin.laravel-quiz')</h3>
     {!! Form::open(['method' => 'POST', 'route' => ['tests.store']]) !!}
 
+    <a href="quizaksaraangka">Kuis</a>
+
     <div class="panel panel-default">
         <div class="panel-heading">
             @lang('quickadmin.quiz')

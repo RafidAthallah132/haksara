@@ -33,7 +33,7 @@
             <a href="aksaraangka">Aksara Angka</a>
             <a href="aksaramurda">Aksara Murda</a>
             <a href="sandhangan">Sandhangan</a>
-            <a href="aksararekan">Aksara Rekan</a>
+            <a href="aksaraswara">Aksara Swara</a>
             <a href="pasangan">Pasangan</a>
 
         </div>

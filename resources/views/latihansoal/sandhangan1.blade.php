@@ -3,6 +3,9 @@
 <link rel="stylesheet" href="{{ asset('quickadmin/css/style.css') }}" >
 
 @section('content')
+
+<a href="sandhanganlevel1">Kembali</a>
+
 <div id="container">
     <div id="start">Mulai Kuis!</div>
     <div id="quiz" style="display: none">

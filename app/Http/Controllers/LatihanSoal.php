@@ -43,9 +43,9 @@ class LatihanSoal extends Controller
         //code untuk meload data
     }
 
-    function aksararekan()
+    function aksaraswara()
     {
-        return view('\LatihanSoal\aksararekan');
+        return view('\LatihanSoal\aksaraswara');
         //code untuk meload data
     }
 

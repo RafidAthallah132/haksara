@@ -15,7 +15,7 @@
                         <tr><th>@lang('quickadmin.questions-options.fields.question')</th>
                     <td>{{ $questions_option->question->question_text or '' }}</td></tr><tr><th>@lang('quickadmin.questions-options.fields.option')</th>
                     <td>{{ $questions_option->option }}</td></tr><tr><th>@lang('quickadmin.questions-options.fields.correct')</th>
-                    <td>{{ $questions_option->correct == 1 ? 'Yes' : 'No' }}</td></tr>
+                    <td>{{ $questions_option->correct == 1 ? 'Ya' : 'Tidak' }}</td></tr>
                     </table>
                 </div>
             </div>
