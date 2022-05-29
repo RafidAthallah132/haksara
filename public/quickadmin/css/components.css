@@ -4288,12 +4288,15 @@ Customized Bootstrap Panels
   -webkit-box-shadow: none !important;
   -moz-box-shadow: none !important;
   box-shadow: none !important;
+ 
 }
 .panel-group .panel {
   overflow: visible;
 }
 .panel .panel-body {
   font-size: 13px;
+  background-color: #8E3434;
+  color: white;
 }
 .panel .panel-title > a:hover {
   text-decoration: none;

@@ -7,8 +7,13 @@
 
 <body class="page-header-fixed">
 
-    @include('partials.analytics')
+    {{-- Perubahan sementara - mau hapus yang dirasa tidak penting
+    masih tahap try error vvvv --}}
 
+    {{-- @include('partials.analytics') --}}
+
+    @include('partials.header')
+    
     <div style="margin-top: 10%;"></div>
 
     <div class="container-fluid">
