@@ -7,10 +7,17 @@
             data-slide-speed="200">
         <!-- User -->
             <li>
-                <div class="row" style=" margin-left : 1em">
-                <img src="https://cdn.icon-icons.com/icons2/1378/PNG/512/avatardefault_92824.png" width="50%" alt="default"> <br>
-                <div class="col-md-4"><button type="button" class='btn btn-sm btn-primary'> Edit Profile</button></div> <br> <br>
-               <p class="col-sm-7" style="color:white;">Selamat Datang  {{ Auth::user()->name }} !</p>
+                <div class="row" style=" padding-top: 2em;margin-left: 0.05rem">
+                    <div class="col-md-2">
+                    <i class="fa fa-user" aria-hidden="true" style="font-size: 3em; color:white"></i>
+                    </div>
+                    
+               <div class="col-md-5">
+               <p  style="color:white;">Selamat Datang  {{ Auth::user()->name }} !</p>
+               </div>
+               <div class="col-md-5">
+           <button type="button" class='btn btn-sm btn-primary'> Edit Profile</button>
+               </div>
                 </div>
             </li>
 

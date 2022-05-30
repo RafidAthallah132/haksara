@@ -49,7 +49,7 @@
 </style>
 
             <div class="header" >        
-                <a href="#" id="haksara-title">
+                <a href="home" id="haksara-title">
                     <img src="{{ asset('quickadmin/images/Logo.svg') }}"  width="30" height="30"  alt="">
                     Haksara
                   </a>
