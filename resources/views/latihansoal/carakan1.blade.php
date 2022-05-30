@@ -41,25 +41,25 @@
 
         // create our questions
         let questions = [{
-            question: "Apakah ini simbol dari HTML5?",
-            imgSrc: "img/html.png",
-            choiceA: "Benar",
-            choiceB: "Salah",
-            choiceC: "Salah",
-            correct: "A"
+            question: "Simbol dari huruf apakah ini?",
+            imgSrc: "img/sa.png",
+            choiceA: "ma",
+            choiceB: "ha",
+            choiceC: "sa",
+            correct: "C"
         }, {
-            question: "Apakah ini simbol dari CSS3?",
-            imgSrc: "img/css.png",
-            choiceA: "Salah",
-            choiceB: "Benar",
-            choiceC: "Salah",
+            question: "Simbol dari huruf apakah ini?",
+            imgSrc: "img/da.png",
+            choiceA: "ha",
+            choiceB: "da",
+            choiceC: "na",
             correct: "B"
         }, {
-            question: "Apakah ini simbol dari JavaScript?",
-            imgSrc: "img/js.png",
-            choiceA: "Salah",
-            choiceB: "Salah",
-            choiceC: "Benar",
+            question: "Simbol dari huruf apakah ini?",
+            imgSrc: "img/ra.png",
+            choiceA: "wa",
+            choiceB: "ta",
+            choiceC: "ra",
             correct: "C"
         }];
 
