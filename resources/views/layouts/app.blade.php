@@ -17,13 +17,15 @@
 
     @include('partials.analytics')
 
-    @include('partials.header')
+   
 
     <div class="clearfix"></div>
-
+    <div>
+    @include('partials.header')
+    </div>
     <div class="page-container">
 
-        <div class="page-sidebar-wrapper">
+        <div style="margin-top:1.5%;" class="page-sidebar-wrapper">
             @include('partials.sidebar')
         </div>
 

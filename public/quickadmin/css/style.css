@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Poppins', sans-serif;
-    src: url('/fonts/Poppins-Regular.tff');
+    font-family: 'Poppins';
+    src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 }
 
 body{
