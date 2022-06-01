@@ -42,26 +42,26 @@ const scoreDiv = document.getElementById("scoreContainer");
 // create our questions
 let questions = [
     {
-        question : "Apakah ini simbol dari HTML5?",
-        imgSrc : "img/html.png",
-        choiceA : "Benar",
-        choiceB : "Salah",
-        choiceC : "Salah",
-        correct : "A"
+        question : "Berikut merupakan aksara jawa dari?",
+        imgSrc : "img/sembilan.png",
+        choiceA : "7",
+        choiceB : "8",
+        choiceC : "9",
+        correct : "C"
     },{
-        question : "Apakah ini simbol dari CSS3?",
-        imgSrc : "img/css.png",
-        choiceA : "Salah",
-        choiceB : "Benar",
-        choiceC : "Salah",
+        question : "Berikut merupakan aksara jawa dari?",
+        imgSrc : "img/dua.png",
+        choiceA : "1",
+        choiceB : "2",
+        choiceC : "3",
         correct : "B"
     },{
-        question : "Apakah ini simbol dari JavaScript?",
-        imgSrc : "img/js.png",
-        choiceA : "Salah",
-        choiceB : "Salah",
-        choiceC : "Benar",
-        correct : "C"
+        question : "Berikut merupakan aksara jawa dari?",
+        imgSrc : "img/enam.png",
+        choiceA : "6",
+        choiceB : "7",
+        choiceC : "8",
+        correct : "A"
     }
 ];
 

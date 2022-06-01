@@ -41,21 +41,21 @@
 
         // create our questions
         let questions = [{
-            question: "Simbol dari huruf apakah ini?",
+            question: "Berikut merupakan aksara jawa dari?",
             imgSrc: "img/sa.png",
             choiceA: "ma",
             choiceB: "ha",
             choiceC: "sa",
             correct: "C"
         }, {
-            question: "Simbol dari huruf apakah ini?",
+            question: "Berikut merupakan aksara jawa dari?",
             imgSrc: "img/da.png",
             choiceA: "ha",
             choiceB: "da",
             choiceC: "na",
             correct: "B"
         }, {
-            question: "Simbol dari huruf apakah ini?",
+            question: "Berikut merupakan aksara jawa dari?",
             imgSrc: "img/ra.png",
             choiceA: "wa",
             choiceB: "ta",
