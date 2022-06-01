@@ -25,9 +25,11 @@
     </div>
     <div class="page-container">
 
-        <div style="margin-top:1.5%;" class="page-sidebar-wrapper">
+        @if(Auth::user()->isAdmin())
+        <div class="page-sidebar-wrapper">
             @include('partials.sidebar')
         </div>
+        
 
         <div class="page-content-wrapper">
             <div class="page-content">
@@ -55,7 +57,7 @@
                                 </ul>
                             </div>
                         @endif
-
+                        @endif
                         @yield('content')
 
                     </div>
