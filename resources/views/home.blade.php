@@ -11,14 +11,23 @@
         <div class="col-md-12">
             <div id="bungkus">
                 <div class="kartu">
-                    <a  id='kartu-link' style="">Aksara Angka</a></div>
-                <div class="kartu"><a id='modul2' href="aksaramurda">Aksara Murda</a></div>
-                <div class="kartu"><a  href="sandhangan">Sandhangan</a></div>
-                <div class="kartu"><a  href="aksararekan">Aksara Rekan</a></div>
-                <div class="kartu"><a  href="pasangan">Pasangan</a></div>
+                    <div>
+                        <a href="aksaraangka" id='modul2' >Aksara Angka</a> 
+                    </div>
+                </div>
+                <div class="kartu">
+                    <a id='modul2' href="aksaramurda">Aksara Murda</a>
+                </div>
+                <div class="kartu">
+                    <a id="modul2" href="sandhangan">Sandhangan</a>
+                </div>
+                <div class="kartu">
+                    <a id="modul2" href="aksararekan">Aksara Rekan</a>
+                </div>
+                <div class="kartu">
+                    <a id="modul2" href="pasangan">Pasangan</a>
+                </div>
             </div>
         </div>
     </div>
-
-    
 @endsection

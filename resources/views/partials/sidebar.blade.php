@@ -24,7 +24,7 @@
             </li>
 
             <!-- end of user -->
-
+{{-- 
             <li class="{{ $request->segment(1) == 'tests' ? 'active' : '' }}">
                 <a href="{{ route('tests.index') }}">
                     <i class="fa fa-gears"></i>
@@ -37,7 +37,7 @@
                     <i class="fa fa-gears"></i>
                     <span class="title">@lang('quickadmin.results.title')</span>
                 </a>
-            </li>
+            </li> --}}
 
             @if(Auth::user()->isAdmin())
             <li class="{{ $request->segment(1) == 'questions' ? 'active' : '' }}">
