@@ -3,6 +3,11 @@ Route::get('/', function () {
     return redirect('/home');
 });
 
+//Route Profile
+Route::get('profile',function () {
+	return view('profile/profile');
+});
+
 //Route Modul
 Route::get('carakan',"Modul@Carakan") ;
 Route::get('aksaraangka',"Modul@aksaraangka") ;

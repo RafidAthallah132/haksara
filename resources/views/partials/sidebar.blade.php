@@ -16,7 +16,9 @@
                <p  style="color:white;">Selamat Datang  {{ Auth::user()->name }} !</p>
                </div>
                <div class="col-md-5">
-           <button type="button" class='btn btn-sm btn-primary'> Edit Profile</button>
+                   <a>
+           <a href="/profile"><button type="button" class='btn btn-sm btn-primary' style="border-radius: 10%;">Profile</button></a>
+                   </a>
                </div>
                 </div>
             </li>
