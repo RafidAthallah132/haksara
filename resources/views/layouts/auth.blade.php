@@ -12,9 +12,9 @@
 
     {{-- @include('partials.analytics') --}}
 
-    @include('partials.header')
+    {{-- @include('partials.header') --}}
     
-    <div style="margin-top: 10%;"></div>
+    <div style="margin-top: 5%;"></div>
 
     <div class="container-fluid">
         @yield('content')

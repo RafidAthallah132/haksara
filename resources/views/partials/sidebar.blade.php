@@ -1,4 +1,5 @@
 @inject('request', 'Illuminate\Http\Request')
+
 <div class="page-sidebar-wrapper">
     <div class="page-sidebar navbar-collapse collapse">
         <ul class="page-sidebar-menu"
@@ -6,7 +7,7 @@
             data-auto-scroll="true"
             data-slide-speed="200">
         <!-- User -->
-            <li>
+            {{-- <li>
                 <div class="row" style=" padding-top: 2em;margin-left: 0.05rem">
                     <div class="col-md-2">
                     <i class="fa fa-user" aria-hidden="true" style="font-size: 3em; color:white"></i>
@@ -21,7 +22,7 @@
                    </a>
                </div>
                 </div>
-            </li>
+            </li> --}}
 
             <!-- end of user -->
 {{-- 
@@ -86,15 +87,15 @@
                 </ul>
             </li>
             @endif
-            <li>
+            {{-- <li>
                 <a href="#logout" onclick="$('#logout').submit();">
                     <i class="fa fa-arrow-left"></i>
                     <span class="title">@lang('quickadmin.logout')</span>
                 </a>
-            </li>
+            </li> --}}
         </ul>
     </div>
 </div>
-{!! Form::open(['route' => 'auth.logout', 'style' => 'display:none;', 'id' => 'logout']) !!}
+{{-- {!! Form::open(['route' => 'auth.logout', 'style' => 'display:none;', 'id' => 'logout']) !!}
 <button type="submit">@lang('quickadmin.logout')</button>
-{!! Form::close() !!}
+{!! Form::close() !!} --}}
