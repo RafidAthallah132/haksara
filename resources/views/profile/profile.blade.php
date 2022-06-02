@@ -1,6 +1,9 @@
 @extends('layouts.app')
     <link rel="stylesheet" href="{{ asset('quickadmin/css/utama.css') }}" >
 @section('content')
+<div class="card" style="margin: 40px;padding:20px;">
+    <div class="card-body">
+        <p style="font-size: 30px;font-family: Poppins" class="card-title text-center">Profile</P>
 <div class="row">
     <div class="col-lg-1"></div>
     <div class="col-lg-1">
@@ -9,23 +12,34 @@
         
     </div>
     <div class="col-lg-6">
-    <div class="row">
-<p style="font-size: 30px;font-family: Poppins">{{ Auth::user()->name }}</p>
-    </div>
-    <div class="row">
-        <p style="font-size: 20px;font-family: Poppins">{{ Auth::user()->email}}</p>
-    </div>
-    <div class="row">
+    
+        <table class="table table-borderless">
+            <tr>
+       <td class="col-md-1"> <p style="font-size: 30px;font-family: Poppins">Name </p> </td>   
+        <td><p style="font-size: 30px;font-family: Poppins;margin-left: 5px">{{ Auth::user()->name }}</p></td>
+            </tr>
+   
 
-        <p style="font-size: 10px;font-family: Poppins">{{ $profile -> description}}</p>
-        
+            <tr>
+                <td class="col-md-1"> <p style="font-size: 30px;font-family: Poppins">Email </p>   </td>
+       <td> <p style="font-size: 30px;font-family: Poppins;margin-left: 5px">{{ Auth::user()->email}}</p> </td>
+            </tr>
+   
 
-    </div>
+    <tr>
+        <td class="col-md-1">  <p style="font-size: 30px;font-family: Poppins">Description </p>   </td>
+        <td class="col-md-1">  <p style="font-size: 30px;font-family: Poppins;margin-left: 5px">{{ $profile -> description}}</p></td>
+    </tr>
+</table>
+
+  
     <div class="row">
         <a href={{"profile/edit/".$profile['id']}}>
-        <button type="button" class='btn btn-sm btn-primary' style="border-radius: 10%;">Edit Profile</button>
+        <button type="button" class="btn btn-primary btn-lg active" style="border-radius: 10%;">Edit Profile</button>
         </a>    
         
+    </div>
+    </div>
     </div>
     </div>
 </div>
