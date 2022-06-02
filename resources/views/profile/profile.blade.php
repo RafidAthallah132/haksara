@@ -17,6 +17,9 @@
     </div>
     <div class="row">
 
+        <p style="font-size: 20px;font-family: Poppins">{{ $profile -> description}}</p>
+        
+
     </div>
     <div class="row">
         <button type="button" class='btn btn-sm btn-primary' style="border-radius: 10%;">Edit Profile</button>

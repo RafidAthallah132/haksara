@@ -4,9 +4,8 @@ Route::get('/', function () {
 });
 
 //Route Profile
-Route::get('profile',function () {
-	return view('profile/profile');
-});
+Route::get('profile','profileController@index'
+);
 
 //Route Modul
 Route::get('carakan',"Modul@Carakan") ;

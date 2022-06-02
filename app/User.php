@@ -13,6 +13,7 @@ use Mail;
  * @package App
  * @property string $name
  * @property string $email
+ *  @property string $description
  * @property string $password
  * @property string $role
  * @property string $remember_token
