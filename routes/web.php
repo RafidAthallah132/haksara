@@ -1,4 +1,7 @@
 <?php
+
+use App\Http\Controllers\profileController;
+
 Route::get('/', function () {
     return redirect('/home');
 });
@@ -6,8 +9,12 @@ Route::get('/', function () {
 //Route Profile
 Route::get('profile','profileController@index'
 );
+Route::get('profile/edit/{id}',[profileController::class, 'edit']);
+Route::put('edit',[profileController::class, 'update'])->name('doneedit');
+
 
 //Route Modul
+
 Route::get('carakan',"Modul@Carakan") ;
 Route::get('aksaraangka',"Modul@aksaraangka") ;
 Route::get('aksaramurda',"Modul@aksaramurda") ;
