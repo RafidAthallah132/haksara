@@ -170,14 +170,14 @@ function scoreRender(){
     const scorePerCent = Math.round(100 * score/questions.length);
     
     // choose the image based on the scorePerCent
-    let img = (scorePerCent >= 80) ? "img/5.png" :
-              (scorePerCent >= 60) ? "img/4.png" :
-              (scorePerCent >= 40) ? "img/3.png" :
-              (scorePerCent >= 20) ? "img/2.png" :
-              "img/1.png";
+    let img = (scorePerCent >= 80) ? "img/diatas80.png" :
+              (scorePerCent >= 60) ? "img/diatas60.png" :
+              (scorePerCent >= 40) ? "img/diatas40.png" :
+              (scorePerCent >= 20) ? "img/diatas20.png" :
+              "img/dibawah20.png";
     
     scoreDiv.innerHTML = "<img src="+ img +">";
-    scoreDiv.innerHTML += "<p>"+ scorePerCent +"%</p>";
+    scoreDiv.innerHTML += "<p> Nilai kamu : "+ scorePerCent +"%</p>";
 }
 </script>
 @endsection

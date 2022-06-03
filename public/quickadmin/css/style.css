@@ -13,18 +13,24 @@ body{
     background-color: #8E3434;
     height: 300px;
     width : 700px;
-    border-radius: 25px;
+    border-radius: 24px!important;
     box-shadow: 0px 0px 0px 0px;
     position: relative;
 }
 #start{
-    font-size: 1.5em;
-    font-weight: bolder;
-    word-break: break-all;
-    background: #FAF8F5;
+    font-family: poppins;
+    font-size: 30;
+    font-weight: bold;
+    border-radius: 24px!important;
+    width:250px;
+    height:auto;
+    background: #ffffff;
     text-align: center;
     cursor: pointer;
     position: absolute;
+    vertical-align: middle;
+    left:220px;
+    top:70px;
     color : #8E3434;
 }
 #start:hover{
@@ -36,12 +42,15 @@ body{
     width : 200px;
     height : 200px;
     position: absolute;
-    left : 0px;
-    top : 0px;
+    left : 40px;
+    top : 50px;
 }
 #qImg img{
-    width : 70px;
+    width : 150px;
+    background: #ffffff;
     border-top-left-radius: 5px;
+    padding: 20px;
+    border-radius: 24px!important;
 }
 
 #question{
@@ -49,12 +58,14 @@ body{
     height : 125px;
     position: absolute;
     right:0;
-    top:0;
+    top: 30px;;
 }
+
 #question p{
+    font-family: poppins;
+    font-size: 17;
     margin : 0;
     padding : 15px;
-    font-size: 1.25em;
     color:#fff;
 }
 
@@ -62,25 +73,29 @@ body{
     width : 480px;
     position: absolute;
     right : 0;
-    top : 125px;
+    top : 90px;
     padding : 10px;
     color:#fff;
 }
 .choice{
-    display: inline-block;
-    width : 135px;
+    font-family: poppins;
+    font-size: 23;
+    display: block;
+    width : 170px;
     text-align: center;
-    border : 1px solid grey;
-    border-radius: 5px;
+    background: #ffffff;
+    border-radius: 24px!important;
     cursor: pointer;
     padding : 5px;
+    color : #8E3434;
+    margin-bottom: 1rem;
 }
 .choice:hover{
-    border : 2px solid grey;
+    border : 1px solid rgb(255, 255, 255);
     font-weight: bold;
 }
 
-#timer{
+/* #timer{
     position: absolute;
     height : 100px;
     width : 200px;
@@ -103,48 +118,50 @@ body{
     background-color: mediumseagreen;
     margin-top : -10px;
     margin-left : 25px;
-}
+} */
+
 #progress{
     width : 500px;
     position: absolute;
     bottom : 0px;
     right : 0px;
-    padding:5px;
+    padding:10px;
     text-align: right;
 }
 .prog{
     width : 25px;
     height : 25px;
-    border: 1px solid #000;
+    border: 3px solid rgb(255, 255, 255);
     display: inline-block;
-    border-radius: 50%;
+    border-radius: 24px!important;
     margin-left : 5px;
     margin-right : 5px;
 }
 #scoreContainer{
     margin : 20px auto;
     background-color: white;
-    opacity: 0.8;
+    opacity: 0.9;
     height: 300px;
     width : 700px;
-    border-radius: 5px;
-    box-shadow: 0px 5px 15px 0px;
+    border-radius: 24px!important;
+    box-shadow: 0px 3px 15px 0px;
     position: relative;
     display: none;
 }
 #scoreContainer img{
     position: absolute;
+    height : 40;
+    width : 42;
     top:100px;
     left:325px;
 }
 #scoreContainer p{
     position: absolute;
     display: block;
-    width : 59px;
-    height :59px;
-    top:130px;
-    left:325px;
-    font-size: 1.5em;
+    top:150px;
+    left:260px;
+    font-family: poppins;
+    font-size: 23;
     font-weight: bold;
     text-align: center;
 }
