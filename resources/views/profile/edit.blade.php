@@ -34,7 +34,7 @@
     </div>
 
     <!-- Submit -->
-    <button type="submit" class="btn btn-primary btn-lg active" >Update</button>
+    <button type="submit" class="btn btn-primary btn-lg active" >Update Profile</button>
 
 </form>
     </div>
