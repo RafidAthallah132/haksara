@@ -18,6 +18,7 @@ Route::put('edit',[profileController::class, 'update'])->name('doneedit');
 Route::get('carakan',"Modul@Carakan") ;
 Route::get('aksaraangka',"Modul@aksaraangka") ;
 Route::get('aksaramurda',"Modul@aksaramurda") ;
+Route::get('aksaraswara',"Modul@aksaraswara") ;
 Route::get('sandhangan',"Modul@sandhangan") ;
 Route::get('aksaraswara',"Modul@aksaraswara") ;
 Route::get('pasangan',"Modul@pasangan") ;

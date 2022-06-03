@@ -27,7 +27,10 @@
                     <a id="modul2" href="sandhangan">Sandhangan</a>
                 </div>
                 <div class="kartu">
-                    <a id="modul2" href="aksararekan">Aksara Rekan</a>
+                    <a id="modul2" href="carakan">Carakan</a>
+                </div>
+                <div class="kartu">
+                    <a id="modul2" href="aksaraswara">Aksara Swara</a>
                 </div>
                 <div class="kartu">
                     <a id="modul2" href="pasangan">Pasangan</a>
