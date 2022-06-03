@@ -6,11 +6,12 @@ Route::get('/', function () {
     return redirect('/home');
 });
 
+
 //Route Profile
 Route::get('profile','profileController@index'
 );
-Route::get('profile/edit/{id}',[profileController::class, 'edit']);
-Route::put('edit',[profileController::class, 'update'])->name('doneedit');
+Route::get('profile/edit/{id}','profileController@edit');
+Route::put('edit','profileController@update')->name('doneedit');
 
 
 //Route Modul
