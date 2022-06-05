@@ -22,7 +22,7 @@
                     </thead>
                     <tbody>
 
-                        <a href="pasanganlevel2">Kembali</a>
+                        <a href="pasanganlevel2"><img src="img/kembali.png" height="40" width="40" /></a>
 
                         <tr>
                             {{-- Audio letakkan di public/audio --}}

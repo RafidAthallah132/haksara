@@ -25,7 +25,7 @@
                     </thead>
                     <tbody>
 
-                        <a href="carakanlevel1">Kembali</a>
+                        <a href="carakanlevel1"><img src="img/kembali.png" height="40" width="40" /></a>
 
                         <tr>
                             {{-- Audio letakkan di public/audio --}}
