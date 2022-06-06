@@ -1,16 +1,6 @@
 @extends('layouts.app')
 <link rel="stylesheet" href="{{ asset('quickadmin/css/utama.css') }}" >
 @section('content')
-    {{-- <div class="row">
-        <div class="col-md-10">
-            <div class="panel panel-default">
-                <a href="home"> kembali </a>
-                <a href="materiaksaraangka">Materi</a>
-                <a href="latihansoalaksaraangka">Latihan Soal</a>
-                <a href="quizaksaraangka">Kuis</a>
-        </div>
-    </div> --}}
-
     <style>
         a{
          text-decoration: none;
@@ -20,19 +10,19 @@
 
     <div class="row" style="text-align: left; margin-left:10%; margin-bottom:2%;">
         <div class="col-md-12">
-            <h1 style="font-family: poppins; font-weight:bold; color: #8E3434;">Selamat datang {{ Auth::user()->name }} !</h1>
+            <h1 style="font-family: poppins; font-weight:bold; color: #8E3434;">Aksara Angka</h1>
         </div>
 </div>
-    <div class="row" >
+    <div class="row" style="margin-top: 10%;" >
         <div class="col-md-12">
             <div id="bungkus">
         
-                    <a class="kartu" href="materiaksaraangka">Materi</a>
+                    <a class="kartu2" href="materiaksaraangka">Materi</a>
                 
            
-                    <a class="kartu" href="latihansoalaksaraangka">Latihan Soal</a>
+                    <a class="kartu2" href="latihansoalaksaraangka">Latihan Soal</a>
                 
-                    <a class="kartu" href="quizaksaraangka">Kuis</a>
+                    <a class="kartu2" href="quizaksaraangka">Kuis</a>
             
             </div>
         </div>

@@ -15,7 +15,6 @@
     <div class="row" >
         <div class="col-md-12">
             <div id="bungkus">
-               
                     <a href="aksaraangka" class="kartu">Aksara Angka</a> 
                     <a class="kartu" href="aksaramurda">Aksara Murda</a>
                     <a class="kartu" href="sandhangan">Sandhangan</a>
