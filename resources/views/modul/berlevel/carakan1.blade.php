@@ -23,7 +23,7 @@
            
                     <a class="kartu2" href="latihansoalcarakan1">Latihan Soal</a>
                 
-                    <a class="kartu2" href="quizcarakan1">Kuis</a>
+                    <a class="kartu2" href="{{ route('tests.index') }}">Kuis</a>
             
             </div>
         </div>
