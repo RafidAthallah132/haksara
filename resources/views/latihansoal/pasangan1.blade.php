@@ -5,7 +5,6 @@
 @section('content')
 
 <a href="pasanganlevel1"><img src="img/kembali.png" height="40" width="40" /></a>
-{{-- <a href="pasanganlevel1">Kembali</a> --}}
 
 <div id="container">
     <div id="start">Mulai Kuis!</div>

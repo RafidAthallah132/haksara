@@ -4,7 +4,7 @@
 
 @section('content')
 
-<a href="aksaraswara">Kembali</a>
+<a href="aksaraswara"><img src="img/kembali.png" height="40" width="40" /></a>
 
 <div id="container">
     <div id="start">Mulai Kuis!</div>

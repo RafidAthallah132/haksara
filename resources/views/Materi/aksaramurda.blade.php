@@ -24,7 +24,7 @@
                     </thead>
                     <tbody>
 
-                        <a href="aksaramurda">Kembali</a>
+                        <a href="aksaramurda"><img src="img/kembali.png" height="40" width="40" /></a>
 
                         <tr>
                             <td>ꦟ</td>

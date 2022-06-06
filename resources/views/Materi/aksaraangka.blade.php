@@ -19,7 +19,7 @@
                     </thead>
                     <tbody>
 
-                        <a href="aksaraangka">Kembali</a>
+                        <a href="aksaraangka"><img src="img/kembali.png" height="40" width="40" /></a>
 
                         <tr>
                             <td>꧇꧑꧇</td>

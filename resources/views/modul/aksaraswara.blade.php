@@ -25,6 +25,7 @@
                     <a class="kartu2" href="quizaksaraswara">Kuis</a>
             
             </div>
+
         </div>
     </div>
 @endsection

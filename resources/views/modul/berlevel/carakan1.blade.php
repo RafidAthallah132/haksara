@@ -1,6 +1,7 @@
   @extends('layouts.app')
     <link rel="stylesheet" href="{{ asset('quickadmin/css/utama.css') }}" >
 @section('content')
+
     <style>
         a{
          text-decoration: none;
@@ -27,6 +28,7 @@
             </div>
         </div>
     </div>
+
 @endsection
 
 

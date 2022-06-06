@@ -21,7 +21,7 @@
                     </thead>
                     <tbody>
 
-                        <a href="sandhanganlevel1">Kembali</a>
+                        <a href="sandhanganlevel1"><img src="img/kembali.png" height="40" width="40" /></a>
 
                         <tr>
                             {{-- Audio letakkan di public/audio --}}

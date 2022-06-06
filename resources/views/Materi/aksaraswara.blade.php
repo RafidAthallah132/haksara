@@ -22,7 +22,7 @@
                     </thead>
                     <tbody>
 
-                        <a href="aksaraswara">Kembali</a>
+                        <a href="aksaraswara"><img src="img/kembali.png" height="40" width="40" /></a>
 
                         <tr>
                             <td>ꦄ</td>
