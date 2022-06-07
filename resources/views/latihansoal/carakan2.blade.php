@@ -7,7 +7,7 @@
 <a href="carakanlevel2"><img src="img/kembali.png" height="40" width="40" /></a>
 
 <div id="container">
-    <div id="start">Mulai Kuis!</div>
+    <div id="start">Mulai Latihan Soal!</div>
     <div id="quiz" style="display: none">
         <div id="question"></div>
         <div id="qImg"></div>
