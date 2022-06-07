@@ -8,21 +8,25 @@
         }
      </style>
 
-    <div class="row" style="text-align: left; margin-left:10%; margin-bottom:2%;">
-        <div class="col-md-12">
-            <h1 style="font-family: poppins; font-weight:bold; color: #8E3434;">Aksara Murda</h1>
-        </div>
+<div class="row" style="text-align: left; margin-left:5%; margin-bottom:2%;">
+    <div class="col-md-2">
+        <a href="home"><img src="img/kembali.png" height="40" width="40" /> </span></a>
+        
+    </div>
+    <div class="col-md-7">
+        <h1 class="namalevel">Aksara Swara</h1>
+    </div>
 </div>
     <div class="row" style="margin-top: 10%;" >
         <div class="col-md-12">
             <div id="bungkus">
-        
+                
                     <a class="kartu2" href="materiaksaraswara">Materi</a>
                 
            
                     <a class="kartu2" href="latihansoalaksaraswara">Latihan Soal</a>
                 
-                    <a class="kartu2" href="{{ route('tests.index') }}">Kuis</a>
+                    <a class="kartu2" href="quizaksaraswara">Kuis</a>
             
             </div>
 
