@@ -29,6 +29,7 @@
     <div class="row" >
         <div class="col-md-12">
             <div id="bungkus">
+                <a href="home"><img src="img/kembali.png" height="40" width="40" /></a>
                     <a class="kartu2" href="sandhanganlevel1">Sandhangan Level 1</a>
                     <a class="kartu2" href="sandhanganlevel2">Sandhangan Level 2</a>
             </div>

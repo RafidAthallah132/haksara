@@ -21,7 +21,7 @@
                     <a class="kartu2" href="carakanlevel1">Carakan Level 1</a>
                 
            
-                    <a class="kartu2" href="carakanlevel1">Carakan Level 2</a>
+                    <a class="kartu2" href="carakanlevel2">Carakan Level 2</a>
                 
 
             </div>
