@@ -7,7 +7,7 @@
     
 </style>
 <div class="col-md-6 col-md-offset-3">
-    <div style="display: flex; ">
+    <div style="display: flex; margin-left:5%; ">
         <p id="haksara" > Haksara</p>
         <p id='jargon'>Belajar aksara jawa dengan <br>
            <span style="color: #8E3434;"> mudah </span> dan <span style="color: #8E3434;"> menyenangkan </span> </p>
