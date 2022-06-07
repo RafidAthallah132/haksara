@@ -54,17 +54,6 @@ Route::get('latihansoalaksaraangka',"LatihanSoal@aksaraangka") ;
 Route::get('latihansoalaksaramurda',"LatihanSoal@aksaramurda") ;
 Route::get('latihansoalaksaraswara',"LatihanSoal@aksaraswara") ;
 
-//Route Quiz 
-Route::get('quizcarakan1',"Quiz@carakan1") ;
-Route::get('quizcarakan2',"Quiz@carakan2") ;
-Route::get('quizsandhangan1',"Quiz@sandhangan1") ;
-Route::get('quizsandhangan2',"Quiz@sandhangan2") ;
-Route::get('quizpasangan1',"Quiz@pasangan1") ;
-Route::get('quizpasangan2',"Quiz@pasangan2") ;
-Route::get('quizaksaraangka',"Quiz@aksaraangka") ;
-Route::get('quizaksaramurda',"Quiz@aksaramurda") ;
-Route::get('quizaksaraswara',"Quiz@aksaraswara") ;
-
 // Auth::routes();
 
 
