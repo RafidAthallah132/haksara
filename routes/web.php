@@ -56,8 +56,6 @@ Route::get('latihansoalaksaraswara',"LatihanSoal@aksaraswara") ;
 
 // Auth::routes();
 
-
-
 // Authentication Routes...
 $this->get('login', 'Auth\LoginController@showLoginForm')->name('auth.login');
 $this->post('login', 'Auth\LoginController@login')->name('auth.login');
