@@ -7,7 +7,7 @@
                 <a href="pasangan"><img src="img/kembali.png" height="40" width="40" /></p>
                 <a href="materipasangan2">Materi</a>
                 <a href="latihansoalpasangan2">Latihan Soal</a>
-                <a href="quizpasangan2">Kuis</a>
+                <a class="kartu2" href="{{ route('tests.index') }}">Kuis</a>
         </div>
     </div>
 @endsection

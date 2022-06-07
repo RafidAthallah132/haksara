@@ -44,30 +44,29 @@
             <li class="{{ $request->segment(1) == 'questions' ? 'active' : '' }}">
                 <a href="{{ route('questions.index') }}">
                     <i class="fa fa-gears"></i>
-                    <span class="title">@lang('quickadmin.questions.title')</span>
+                    <span class="title">@lang('Kelola Pertanyaan')</span>
                 </a>
             </li>
             <li class="{{ $request->segment(1) == 'questions_options' ? 'active' : '' }}">
                 <a href="{{ route('questions_options.index') }}">
                     <i class="fa fa-gears"></i>
-                    <span class="title">@lang('quickadmin.questions-options.title')</span>
+                    <span class="title">@lang('Kelola Jawaban')</span>
                 </a>
             </li>
             <li>
-                <a href="#">
+                {{-- <a href="#">
                     <i class="fa fa-users"></i>
                     <span class="title">@lang('quickadmin.user-management.title')</span>
                     <span class="fa arrow"></span>
-                </a>
-                <ul class="sub-menu">
-                    <li class="{{ $request->segment(1) == 'roles' ? 'active active-sub' : '' }}">
+                </a> --}}
+                    {{-- <li class="{{ $request->segment(1) == 'roles' ? 'active active-sub' : '' }}">
                         <a href="{{ route('roles.index') }}">
                             <i class="fa fa-briefcase"></i>
                             <span class="title">
                                 @lang('quickadmin.roles.title')
                             </span>
                         </a>
-                    </li>
+                    </li> --}}
                     <li class="{{ $request->segment(1) == 'users' ? 'active active-sub' : '' }}">
                         <a href="{{ route('users.index') }}">
                             <i class="fa fa-user"></i>
@@ -76,15 +75,14 @@
                             </span>
                         </a>
                     </li>
-                    <li class="{{ $request->segment(1) == 'user_actions' ? 'active active-sub' : '' }}">
+                    {{-- <li class="{{ $request->segment(1) == 'user_actions' ? 'active active-sub' : '' }}">
                         <a href="{{ route('user_actions.index') }}">
                             <i class="fa fa-th-list"></i>
                             <span class="title">
                                 @lang('quickadmin.user-actions.title')
                             </span>
                         </a>
-                    </li>
-                </ul>
+                    </li> --}}
             </li>
             @endif
             {{-- <li>

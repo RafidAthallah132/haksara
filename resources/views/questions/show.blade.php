@@ -13,9 +13,9 @@
                 <div class="col-md-6">
                     <table class="table table-bordered table-striped">
                         <tr><th>@lang('quickadmin.questions.fields.topic')</th>
-                    <td>{{ $question->topic->title or '' }}</td></tr><tr><th>@lang('quickadmin.questions.fields.question-text')</th>
-                    <td>{!! $question->question_text !!}</td></tr><tr><th>@lang('quickadmin.questions.fields.code-snippet')</th>
-                    <td>{!! $question->answer_explanation !!}</td></tr><tr><th>@lang('quickadmin.questions.fields.more-info-link')</th>
+                    <td>{{ $question->topic->title or '' }}</td></tr><tr><th>@lang('Pertanyaan')</th>
+                    <td>{!! $question->question_text !!}</td></tr><tr><th>@lang('Penjelasan jawaban')</th>
+                    <td>{!! $question->answer_explanation !!}</td></tr><tr>
                     </table>
                 </div>
             </div>

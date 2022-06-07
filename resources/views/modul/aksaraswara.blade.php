@@ -22,7 +22,7 @@
            
                     <a class="kartu2" href="latihansoalaksaraswara">Latihan Soal</a>
                 
-                    <a class="kartu2" href="quizaksaraswara">Kuis</a>
+                    <a class="kartu2" href="{{ route('tests.index') }}">Kuis</a>
             
             </div>
 
