@@ -3,9 +3,14 @@
 @section('content')
 <div class="card" style="margin: 40px;padding:20px;">
     <div class="card-body">
-        <p style="font-size: 30px;font-family: Poppins;padding-bottom: 10px;" class="card-title text-center">Edit your profile</P>
-           
-           
+        <div class="row">
+        
+        <p style="font-size: 30px;font-family: Poppins;padding-bottom: 10px;" class="card-title col-sm-9">Edit your profile</P>
+
+            <div class="col-sm-2">
+            <a href="/profile"><button class="btn btn-primary btn-lg active" >Back to profile</button></a>
+            </div>
+        </div>
             @if ($errors->any())
     <div class="alert alert-danger" >
         <ul style="list-style: none;padding-bottom: 10px;" >
