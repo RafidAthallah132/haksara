@@ -1,6 +1,9 @@
 @extends('layouts.app')
     <link rel="stylesheet" href="{{ asset('quickadmin/css/utama.css') }}" >
 @section('content')
+<div class="col-2" style="margin-left: 65px;">
+    <a href="home"><img src="img/kembali.png" height="40" width="40" /></a>
+</div>
 <div class="card" style="margin: 40px;padding:20px;">
     <div class="card-body">
         <p style="font-size: 30px;font-family: Poppins" class="card-title text-center">Profile</P>

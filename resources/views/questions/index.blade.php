@@ -1,6 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
+
+    <div>
+        <a href="home"><img src="img/kembali.png" height="40" width="40" /></a>
+    </div>
+
+    <br>
+
     <h3 class="page-title">@lang('quickadmin.questions.title')</h3>
 
     <p>

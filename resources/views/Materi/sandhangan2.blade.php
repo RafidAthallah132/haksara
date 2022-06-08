@@ -1,8 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="col-md-1" style="margin-left: 65px;">
+    <a href="sandhanganlevel2"><img src="img/kembali.png" height="40" width="40" /></a>
+  </div>
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-11">
             <div class="panel panel-default">
                 <h1 class="text-center">Sandhangan</h1>
                 <p>
@@ -21,8 +24,7 @@
                     </thead>
                     <tbody>
 
-                        <a href="sandhanganlevel2"><img src="img/kembali.png" height="40" width="40" /></a>
-
+                        
                         <tr>
                             {{-- Audio letakkan di public/audio --}}
                             <td>꧉</td>

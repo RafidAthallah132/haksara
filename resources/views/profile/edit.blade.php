@@ -1,15 +1,18 @@
 @extends('layouts.app')
     <link rel="stylesheet" href="{{ asset('quickadmin/css/utama.css') }}" >
 @section('content')
+<div class="col-2" style="margin-left: 63px;">
+    <a href="/profile"><button class="btn btn-primary btn-lg active" >Kembali</button></a>
+</div>
 <div class="card" style="margin: 40px;padding:20px;">
     <div class="card-body">
         <div class="row">
         
         <p style="font-size: 30px;font-family: Poppins;padding-bottom: 10px;" class="card-title col-sm-9">Edit your profile</P>
 
-            <div class="col-sm-2">
+            {{-- <div class="col-sm-2">
             <a href="/profile"><button class="btn btn-primary btn-lg active" >Back to profile</button></a>
-            </div>
+            </div> --}}
         </div>
             @if ($errors->any())
     <div class="alert alert-danger" >

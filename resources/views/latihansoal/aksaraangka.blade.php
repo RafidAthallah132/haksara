@@ -4,7 +4,9 @@
 
 @section('content')
 
-<a href="aksaraangka"><img src="img/kembali.png" height="40" width="40" /></a>
+<div class="col-md-2" style="margin-left: 65px;">
+    <a href="aksaraangka"><img src="img/kembali.png" height="40" width="40" /></a>
+</div>
 
 <div id="container">
     <div id="start">Mulai Latihan Soal!</div>

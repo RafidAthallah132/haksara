@@ -1,6 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
+    <div>
+        <a href="/questions_options"><img src="img/kembali.png" height="40" width="40" /></a>
+    </div>
+
+    <br>
     <h3 class="page-title">@lang('quickadmin.questions-options.title')</h3>
     
     {!! Form::model($questions_option, ['method' => 'PUT', 'route' => ['questions_options.update', $questions_option->id]]) !!}

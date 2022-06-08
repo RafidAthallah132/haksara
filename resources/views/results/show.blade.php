@@ -1,7 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
-    <h3 class="page-title">@lang('quickadmin.results.title')</h3>
+<div class="col-md-1" style="margin-left: 65px;">
+    <a href="/home"><button class="btn btn-primary btn-lg active" >Kembali</button></a>
+</div>
+
+<div class="row">
+    <div class="col-md-11">
+        <h3 class="page-title">@lang('quickadmin.results.title')</h3>
 
     <div class="panel panel-default">
         <div class="panel-heading">
@@ -73,9 +79,12 @@
 
             <p>&nbsp;</p>
 
-            <a href="{{ route('tests.index') }}" class="btn btn-default">Ulangi quiz</a>
-            <a href="{{ route('results.index') }}" class="btn btn-default">Lihat seluruh hasil quiz</a>
+            {{-- <a href="{{ route('tests.index') }}" class="btn btn-default">Ulangi quiz</a>
+            <a href="{{ route('results.index') }}" class="btn btn-default">Lihat seluruh hasil quiz</a> --}}
             
         </div>
     </div>
 @stop
+
+    </div>
+</div>

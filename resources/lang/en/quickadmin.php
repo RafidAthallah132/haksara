@@ -83,7 +83,7 @@ return [
 	],
 
 	'results' => [
-		'title' => 'My Results',
+		'title' => 'Hasil Kuis',
 		'fields' => [
 			'user' => 'User',
 			'question' => 'Question',

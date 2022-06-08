@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
     <h3 class="page-title">@lang('quickadmin.questions.title')</h3>
     
     <div class="panel panel-default">
