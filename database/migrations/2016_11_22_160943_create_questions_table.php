@@ -17,7 +17,6 @@ class CreateQuestionsTable extends Migration
             $table->integer('topic_id')->unsigned()->nullable();
             $table->foreign('topic_id', 'fk_256_topic_topic_id_question')->references('id')->on('topics');
             $table->text('question_text')->nullable();
-            $table->text('question_type')->nullable();
             $table->text('answer_explanation')->nullable();
             
             $table->timestamps();
