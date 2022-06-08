@@ -4,15 +4,24 @@
 <div class="card" style="margin: 40px;padding:20px;">
     <div class="card-body">
         <p style="font-size: 30px;font-family: Poppins;padding-bottom: 10px;" class="card-title text-center">Edit your profile</P>
+           
+           
             @if ($errors->any())
-    <div class="alert alert-danger" style="padding : 20px;">
-        <ul>
+    <div class="alert alert-danger" >
+        <ul style="list-style: none;padding-bottom: 10px;" >
             @foreach ($errors->all() as $error)
                 <li>{{ $error }}</li>
             @endforeach
         </ul>
     </div>
+    @endif
+
+    @if(session()->has('message'))
+    <div class="alert alert-success">
+        {{ session()->get('message') }}
+    </div>
 @endif
+
  <form action="{{ route('doneedit') }}" method="POST" value="PATCH">
     @csrf
     @method('PUT')

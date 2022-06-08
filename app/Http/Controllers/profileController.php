@@ -35,11 +35,8 @@ class profileController extends Controller
      $data= profile::find($request->id);
      $data->description=$request->description;
      $data -> save();
-     session()->flash('success', 'User Updated');
 
-    
-
-  return redirect()-> back();
+  return redirect()-> back()->with('message', 'Your profile has been updated!');;
 
     
     }
