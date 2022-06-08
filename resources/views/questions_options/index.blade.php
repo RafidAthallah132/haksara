@@ -31,9 +31,9 @@
                                 <td></td>
                                 <td>{{ $questions_option->question->question_text or '' }}</td>
                                 <td>{{ $questions_option->option }}</td>
-                                <td>{{ $questions_option->correct == 1 ? 'Yes' : 'No' }}</td>
+                                <td>{{ $questions_option->correct == 1 ? 'Benar' : 'Salah' }}</td>
                                 <td>
-                                    <a href="{{ route('questions_options.show',[$questions_option->id]) }}" class="btn btn-xs btn-primary">@lang('quickadmin.view')</a>
+                                    {{-- <a href="{{ route('questions_options.show',[$questions_option->id]) }}" class="btn btn-xs btn-primary">@lang('quickadmin.view')</a> --}}
                                     <a href="{{ route('questions_options.edit',[$questions_option->id]) }}" class="btn btn-xs btn-info">@lang('quickadmin.edit')</a>
                                     {!! Form::open(array(
                                         'style' => 'display: inline-block;',

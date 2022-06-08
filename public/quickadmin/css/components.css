@@ -4295,8 +4295,8 @@ Customized Bootstrap Panels
 }
 .panel .panel-body {
   font-size: 13px;
-  background-color: #8E3434;
-  color: white;
+  /* background-color: #8E3434; */
+  color: #8E3434;
 }
 .panel .panel-title > a:hover {
   text-decoration: none;
