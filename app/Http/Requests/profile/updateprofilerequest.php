@@ -24,8 +24,8 @@ class updateprofilerequest extends FormRequest
     public function rules()
     {
         return [
-            'name' => 'required',
-            'description' => 'required'
+            'name' => 'required|alpha_dash',
+            'description' => 'required',
         ];
     }
 }

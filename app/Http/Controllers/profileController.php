@@ -3,8 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\profile\updateprofilerequest;
+use App\Http\Requests\profile\updaterequest;
 use Illuminate\Http\Request;
 use App\profile;
+use Validator;
 
 class profileController extends Controller
 {
@@ -22,13 +24,25 @@ class profileController extends Controller
         return view('profile.edit',['data' => $data]);
     }
 
-    public function update(request $request){
-      $data= profile::find($request->id);
-      $data->name=$request->name;
-      $data->description=$request->description;
-      $data -> save();
-      return view('profile\profile', ['profile' => $data]);
-    }
+    public function update(updateprofilerequest $request){
+
+        $user = auth()->user();
+     $user->update([
+        'name' => $request->name,
+        'description' => $request->description,
+
+     ]);
+     $data= profile::find($request->id);
+     $data->description=$request->description;
+     $data -> save();
+     session()->flash('success', 'User Updated');
+
+    
+
+  return redirect()-> back();
+
     
     }
+
+}
 

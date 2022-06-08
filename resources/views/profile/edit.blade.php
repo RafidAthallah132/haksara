@@ -4,6 +4,15 @@
 <div class="card" style="margin: 40px;padding:20px;">
     <div class="card-body">
         <p style="font-size: 30px;font-family: Poppins;padding-bottom: 10px;" class="card-title text-center">Edit your profile</P>
+            @if ($errors->any())
+    <div class="alert alert-danger" style="padding : 20px;">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
  <form action="{{ route('doneedit') }}" method="POST" value="PATCH">
     @csrf
     @method('PUT')
@@ -19,6 +28,7 @@
             <td class="col-md-1"><label for="name">Name</label> </td>
     <td> <input type="text" class="form-control" name="name" value="{{ $data-> name}}" id="name"></td>
         </tr>   
+        
    
            
     </div>
