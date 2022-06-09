@@ -5,6 +5,7 @@
     margin-left: 8%;
     border-radius: 37px!important;
 
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +17,8 @@
 }
 
 .isi-bungkus{
-    display: inline-block;
+    /* display: inline-block; */
+    position: relative;
     vertical-align: top;
     color: white;
 

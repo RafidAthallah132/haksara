@@ -17,16 +17,12 @@
             <p id="masok">Masuk</p>
             @if (count($errors) > 0)
                     <div class="alert alert-danger">
-                        <strong>Whoops!</strong> There were problems with input:
-                        <br><br>
-                        <ul>
+                        <strong>Whoops!</strong> There were problems with input: 
                             @foreach ($errors->all() as $error)
                                 <li>{{ $error }}</li>
                             @endforeach
-                        </ul>
                     </div>
                 @endif
-            <br>
             <form class="form" role="form" method="POST" action="{{ url('login') }}">
                 <input type="hidden" name="_token" value="{{ csrf_token() }}">
                 
