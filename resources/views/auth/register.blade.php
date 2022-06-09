@@ -11,11 +11,10 @@
             <form class="form" role="form" method="POST" action="{{ url('/register') }}">
                 {{ csrf_field() }}
 
-
                     <div class="form-group{{ $errors->has('name') ? ' has-error' : '' }}">
                         <label class="control-label labelin">Name</label>
                         <div class="">
-                            <input type="text" class="editin" placeholder="Isi namamu disini ya..." name="name" value="{{ old('name') }}" required autofocus>
+                            <input maxlength="255" type="text" class="editin" placeholder="Isi namamu disini ya..." name="name" value="{{ old('name') }}" required autofocus>
                             @if ($errors->has('name'))
                             <span class="help-block">
                                 <strong>{{ $errors->first('name') }}</strong>
@@ -39,7 +38,7 @@
                     <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
                         <label class="control-label labelin">Password</label>
                         <div class="">
-                            <input type="password" class="editin" placeholder="Placeholder" name="password" required >
+                            <input type="password" minlength="6" class="editin" placeholder="password" name="password" required >
 
                             @if ($errors->has('password'))
                             <span class="help-block">
@@ -52,7 +51,7 @@
                     <div class="form-group{{ $errors->has('password_confirmation') ? ' has-error' : '' }}">
                         <label class="control-label labelin">Confirm Password</label>
                         <div class="">
-                            <input type="password" class="editin" placeholder="Confirm your password" name="password_confirmation" required >
+                            <input minlength="6" type="password" class="editin" placeholder="Confirm your password" name="password_confirmation" required >
 
                             @if ($errors->has('password_confirmation'))
                             <span class="help-block">
